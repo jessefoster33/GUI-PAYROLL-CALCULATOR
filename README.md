@@ -1,13 +1,11 @@
-// Assignment 4: GUI Payroll Calculator
-//
-// Author: Jesse Foster
-// Dec 19, 2019
-//
-// Purpose: Calculating an employee's net pay after deductions via a GUI, and allowing user to save payslips.
-//
-// Description: This application will request an employee's information including name, hours worked, deduction percentage, and hourly rate
-// and then will calculate and display their gross pay, deductions taken, and net pay after deductions. This will also display data input by
-// user including employee name, hours worked, and hourly rate. A payslip text file can be saved summarizing input and calculated data.
+Assignment 4: GUI Payroll Calculator
+
+Author: Jesse Foster
+Dec 19, 2019
+
+Purpose: Calculating an employee's net pay after deductions via a GUI, and allowing user to save payslips.
+
+Description: This application will request an employee's information including name, hours worked, deduction percentage, and hourly rate and then will calculate and display their gross pay, deductions taken, and net pay after deductions. This will also display data input by user including employee name, hours worked, and hourly rate. A payslip text file can be saved summarizing input and calculated data.
 
 using System;
 using System.Collections.Generic;
@@ -20,7 +18,6 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
 
-//Personal Note: remember in the future that tab order index also includes group boxes, which is what messed up my initial order so badly until I set the number for it
 
 namespace GUI_Payroll_Calculator
 {
